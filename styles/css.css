@@ -249,7 +249,51 @@ h3 {
   margin-top: 1rem;
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-size: 1.6rem;
   transition: var(--transition);
+}
+.contact-left .btn-submit:hover {
+  background-color: #000;
+}
+
+/* Insta Grid */
+
+/* Footer */
+#footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+.footer-content {
+  text-align: center;
+}
+.footer-content h3 {
+  color: var(--light-color);
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+.footer-content ul {
+  flex-direction: column;
+}
+.footer-content ul li a {
+  color: var(--light-color);
+  font-size: 1.5rem;
+  transition: var(--transition);
+}
+.footer-content ul li a:hover {
+  opacity: 0.7;
+}
+.footer-content ul li {
+  margin: 0.5rem 1rem;
+}
+.footer-content > div:first-child {
+  margin-bottom: 3rem;
+}
+.footer-content > div:first-child div {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  margin: 5rem auto;
+  border-radius: 50%;
 }
 
 /* Media Queries */
@@ -279,6 +323,12 @@ h3 {
     height: 100%;
     object-fit: cover;
   }
+  .contact-left form .form-control {
+    max-width: 500px;
+  }
+  .footer-content ul {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 768px) {
@@ -299,6 +349,16 @@ h3 {
   }
   .about-left {
     margin-bottom: 0;
+  }
+  .contact-content {
+    flex-direction: row;
+  }
+  .contact-right {
+    padding-left: 3rem;
+    width: 55%;
+  }
+  .contact-left {
+    width: 50%;
   }
 }
 
