@@ -91,7 +91,7 @@ h3 {
 /*Header */
 #header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-  url("/images/image3.jpg") center/cover no-repeat fixed;
+  url("../images/image3.jpg") center/cover no-repeat fixed;
   justify-content: flex-start;
   align-items: flex-end;
 }
@@ -185,7 +185,7 @@ h3 {
 /* work */
 #work {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-  url("/images/image2.jpg") center/cover no-repeat fixed;
+  url("../images/image2.jpg") center/cover no-repeat fixed;
   color: var(--light-color);
 }
 #work .title h2,
