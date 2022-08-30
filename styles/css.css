@@ -88,9 +88,12 @@ h3 {
   line-height: 1.8;
 }
 
-/*Header */
+/*Header 
+ linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+
+*/
 #header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  background:
     url("/images/image3.jpg") center/cover no-repeat fixed;
   justify-content: flex-start;
   align-items: flex-end;
